@@ -3,14 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SportEvents</title>
-    <link rel="stylesheet" href="accueilstyle.css">
+    <link rel="stylesheet" href='accueilstyle.css'>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="stats/statistiques.php">Découvrir de nouvelles personnes</a></li>
+                <li><a href="index.html">S'inscrire</a></li>
+                <li><a href="stats/statistiques.php">Statistiques</a></li>
             </ul>
         </nav>
     </header>
