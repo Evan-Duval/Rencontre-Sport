@@ -5,25 +5,25 @@ Script SQL Utilisé :
 -- Création des tables 
 CREATE TABLE IF NOT EXISTS profil_utilisateur ( 
     idUtilisateur INT AUTO_INCREMENT PRIMARY KEY, 
-    nomUtilisateur VARCHAR(50), 
-    prenomUtilisateur VARCHAR(50), 
-    dateNaissanceUtilisateur DATE, 
-    emailUtilisateur VARCHAR(100), 
-    photoUtilisateur VARCHAR(255), 
-    sportFavoriUtilisateur INT, 
-    idAdresse INT 
+    nomUtilisateur VARCHAR(50) NOT NULL, 
+    prenomUtilisateur VARCHAR(50) NOT NULL, 
+    dateNaissanceUtilisateur DATE NOT NULL, 
+    emailUtilisateur VARCHAR(100) NOT NULL, 
+    photoUtilisateur VARCHAR(255) NOT NULL, 
+    sportFavoriUtilisateur INT NOT NULL, 
+    idAdresse INT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS sports ( 
     idSport INT AUTO_INCREMENT PRIMARY KEY, 
-    nomSport VARCHAR(50) 
+    nomSport VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS adresse ( 
     idAdresse INT AUTO_INCREMENT PRIMARY KEY, 
-    numAdresse INT, rueAdresse VARCHAR(100), 
-    codePostalAdresse VARCHAR(10), 
-    paysAdresse VARCHAR(50) 
+    numAdresse INT, rueAdresse VARCHAR(100) NOT NULL, 
+    codePostalAdresse VARCHAR(10) NOT NULL, 
+    paysAdresse VARCHAR(50) NOT NULL 
 );
 
 -- Insertion de données exemple 
