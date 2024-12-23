@@ -1,4 +1,6 @@
-Ce projet nécessite un serveur Web ainsi qu'une base de données SQL.
+Prérequis du projet : 
+- Serveur Web (Ici, j'ai utilisé Wampserver)
+- Base de données SQL (J'ai utilisé PhpMyAdmin)
 
 Script SQL Utilisé : 
 
