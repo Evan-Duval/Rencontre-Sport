@@ -27,7 +27,7 @@
             $usercounts = 0;
             $sports = [
                 'Football' => 0,
-                'Basket' => 0,
+                'Basketball' => 0,
                 'Tennis' => 0,
                 'Rugby' => 0,
                 'Escrime' => 0,
@@ -60,7 +60,7 @@
         
         const sports = {
             'Football': <?php echo $sports['Football']; ?>,
-            'Basket': <?php echo $sports['Basket']; ?>,
+            'Basketball': <?php echo $sports['Basketball']; ?>,
             'Tennis': <?php echo $sports['Tennis']; ?>,
             'Rugby': <?php echo $sports['Rugby']; ?>,
             'Escrime': <?php echo $sports['Escrime']; ?>
@@ -74,7 +74,7 @@
                     data: Object.values(sports),
                     backgroundColor: [
                         '#3498db', // Bleu pour Football
-                        '#2ecc71', // Vert pour Basket
+                        '#2ecc71', // Vert pour Basketball
                         '#e74c3c', // Rouge pour Tennis
                         '#f39c12', // Orange pour Rugby
                         '#9b59b6'  // Violet pour Escrime
