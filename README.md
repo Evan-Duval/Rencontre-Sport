@@ -2,7 +2,7 @@ Prérequis du projet :
 - Serveur Web (Ici, j'ai utilisé Wampserver)
 - Base de données SQL (J'ai utilisé PhpMyAdmin)
 
-Script SQL Utilisé : (Pour le copier coller sans erreur il est préférable de se mettre dans le mode de lecture "Code")
+Script SQL Utilisé :
 
 -- Création des tables 
 CREATE TABLE IF NOT EXISTS profil_utilisateur ( 
